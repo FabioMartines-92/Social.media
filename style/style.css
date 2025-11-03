@@ -34,3 +34,28 @@ main {
     border-radius: 3px;
     
 }
+
+#social-links img{
+    height: 60px;
+    margin: 20px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.616);
+    box-sizing: border-box; /*a borda fica para a parte interna da caixa*/
+    
+}
+#social-links {
+    text-align: right;
+    padding-right: 5px;   
+}
+#social-links img:hover {
+    border: 2px solid white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8);
+    transition: 0.2s;
+    transform: translate(-3px, -3px); /*faz o icone mover para top, left*/
+   
+}
+
+#social-links a{
+    width: 311px;
+    height: 627px;
+}
